@@ -11,6 +11,8 @@ jmem.sh
 
 The example below will dump out all of the memory chunks between 65300K and 65537K.
 
+{% codeblock %}
+
 #./jmem.sh <pid> 65300 65537
 .
 .
@@ -18,6 +20,8 @@ The example below will dump out all of the memory chunks between 65300K and 6553
 .
 See the big memory content:
 #cat /tmp/<pid>*.dump
+
+{% endcodeblock %}
 
 Take care: 
 
@@ -31,9 +35,13 @@ pmap2stack.sh
 
 The example below will dump out all of the memory chunks between 65300K and 65537K.And the result will show the address in jstack or pstack file.
 
+{% codeblock %}
+
 #./pmap2stack.sh <pid> 65300 65537
 .
 .
 .
+
+{% endcodeblock %}
 
 Enjoy it!
