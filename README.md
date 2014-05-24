@@ -14,13 +14,13 @@ The example below will dump out all of the memory chunks between 65300K and 6553
 
 <pre><code>
 
-#./jmem.sh <pid> 65300 65537
+#./jmem.sh [pid] 65300 65537
 .
 .
 .
 .
 See the big memory content:
-#cat /tmp/<pid>*.dump
+#cat /tmp/[pid]*.dump
 
 </code></pre>
 
@@ -39,7 +39,7 @@ The example below will dump out all of the memory chunks between 65300K and 6553
 
 <pre><code>
 
-#./pmap2stack.sh <pid> 65300 65537
+#./pmap2stack.sh [pid] 65300 65537
 .
 .
 .
